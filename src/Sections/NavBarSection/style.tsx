@@ -13,9 +13,19 @@ export const NavBarLogoContainer = styled.div`
     gap: 16px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
     svg {
         background-color: #000;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(39, 39, 39, 1);
+
+        &:hover {
+            color: #7b7b7b;
+        }
     }
 `;
 
