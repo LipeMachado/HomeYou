@@ -6,11 +6,13 @@ export default createGlobalStyle`
     @font-face {
         font-family: 'MontserratMedium';
         src: url(${MontserratMedium});
+        font-weight: 400;
     }
 
     @font-face {
         font-family: 'MontserratSemiBold';
         src: url(${MontserratSemiBold});
+        font-weight: 600;
     }
     
     * {
