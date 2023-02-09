@@ -1,24 +1,31 @@
+import { DesignSection } from '../../Sections/DesignSection'
 import { HeroSection } from '../../Sections/HeroSection'
 import { NavBarSection } from '../../Sections/NavBarSection'
 import {
     SectionsContainers,
-    NavBarSectioContainer,
-    HeroSectionContainer
+    NavBarSectionContainer,
+    HeroSectionContainer,
+    DesignSectionContainer
 } from './style'
 
 export function HomePage() {
     return (
         <>
-            <NavBarSectioContainer>
+            <NavBarSectionContainer>
                 <SectionsContainers>
                     <NavBarSection />
                 </SectionsContainers>
-            </NavBarSectioContainer>
+            </NavBarSectionContainer>
             <HeroSectionContainer>
                 <SectionsContainers>
                     <HeroSection />
                 </SectionsContainers>
             </HeroSectionContainer>
+            <DesignSectionContainer>
+                <SectionsContainers>
+                    <DesignSection />
+                </SectionsContainers>
+            </DesignSectionContainer>
         </>
     )
 }

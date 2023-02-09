@@ -78,14 +78,12 @@ export const HeroButtonContact = styled.div`
 
 export const HeroButtonAbout = styled.div`
     padding: 12px 26px 12px 26px;
-    border: 1px solid #272727;
     text-decoration: underline;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 
     &:hover {
-        background-color: #272727;
-        color: #fff;
+        color: #7b7b7b;
     }
 
     @media only screen and (max-width: 1024px) {

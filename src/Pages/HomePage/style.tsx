@@ -5,10 +5,14 @@ export const SectionsContainers = styled.div`
     margin: 0px auto;
 `;
 
-export const NavBarSectioContainer = styled.div`
+export const NavBarSectionContainer = styled.div`
     background-color: #ffffff;
 `;
 
 export const HeroSectionContainer = styled.div`
     background-color: #F9F9F9;
+`;
+
+export const DesignSectionContainer = styled.div`
+    background-color: #ffffff;
 `;
