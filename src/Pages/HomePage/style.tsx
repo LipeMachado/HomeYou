@@ -16,3 +16,11 @@ export const HeroSectionContainer = styled.div`
 export const DesignSectionContainer = styled.div`
     background-color: #ffffff;
 `;
+
+export const GalerySectionContainer = styled.div`
+    background-color: #F9F9F9;
+`;
+
+export const ContactSectionContainer = styled.div`
+    background-color: #FFFFFF;
+`;

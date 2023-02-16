@@ -1,11 +1,15 @@
+import { ContactSection } from '../../Sections/ContactSection'
 import { DesignSection } from '../../Sections/DesignSection'
+import { GalerySection } from '../../Sections/GalerySection'
 import { HeroSection } from '../../Sections/HeroSection'
 import { NavBarSection } from '../../Sections/NavBarSection'
 import {
     SectionsContainers,
     NavBarSectionContainer,
     HeroSectionContainer,
-    DesignSectionContainer
+    DesignSectionContainer,
+    GalerySectionContainer,
+    ContactSectionContainer
 } from './style'
 
 export function HomePage() {
@@ -16,16 +20,30 @@ export function HomePage() {
                     <NavBarSection />
                 </SectionsContainers>
             </NavBarSectionContainer>
+
             <HeroSectionContainer>
                 <SectionsContainers>
                     <HeroSection />
                 </SectionsContainers>
             </HeroSectionContainer>
+
             <DesignSectionContainer>
                 <SectionsContainers>
                     <DesignSection />
                 </SectionsContainers>
             </DesignSectionContainer>
+
+            <GalerySectionContainer>
+                <SectionsContainers>
+                    <GalerySection />
+                </SectionsContainers>
+            </GalerySectionContainer>
+
+            <ContactSectionContainer>
+                <SectionsContainers>
+                    <ContactSection />
+                </SectionsContainers>
+            </ContactSectionContainer>
         </>
     )
 }
