@@ -24,3 +24,7 @@ export const GalerySectionContainer = styled.div`
 export const ContactSectionContainer = styled.div`
     background-color: #FFFFFF;
 `;
+
+export const FooterSectionContainer = styled.div`
+    background-color: #F9F9F9;
+`;

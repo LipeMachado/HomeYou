@@ -1,5 +1,6 @@
 import { ContactSection } from '../../Sections/ContactSection'
 import { DesignSection } from '../../Sections/DesignSection'
+import { FooterSection } from '../../Sections/FooterSection'
 import { GalerySection } from '../../Sections/GalerySection'
 import { HeroSection } from '../../Sections/HeroSection'
 import { NavBarSection } from '../../Sections/NavBarSection'
@@ -9,7 +10,8 @@ import {
     HeroSectionContainer,
     DesignSectionContainer,
     GalerySectionContainer,
-    ContactSectionContainer
+    ContactSectionContainer,
+    FooterSectionContainer
 } from './style'
 
 export function HomePage() {
@@ -44,6 +46,12 @@ export function HomePage() {
                     <ContactSection />
                 </SectionsContainers>
             </ContactSectionContainer>
+
+            <FooterSectionContainer>
+                <SectionsContainers>
+                    <FooterSection />
+                </SectionsContainers>
+            </FooterSectionContainer>
         </>
     )
 }
